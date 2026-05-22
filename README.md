@@ -55,7 +55,7 @@ Install the following MCPs before first use:
 | **Chrome** | Bundled with Claude — no installation needed |
 | **Playwright** | Claude Code can install this automatically on first use |
 | **YouTrack** | See [JT-A-961](https://youtrack.jetbrains.com/articles/JT-A-961) |
-| **Opendesk** (computer vision) | [github.com/vitalops/opendesk#mcp-install-claude-code--claude-desktop](https://github.com/vitalops/opendesk#mcp-install-claude-code--claude-desktop) |
+| **Opendesk** (computer vision) | [github.com/vitalops/opendesk#mcp-install-claude-code--claude-desktop](https://github.com/vitalops/opendesk#mcp-install-claude-code--claude-desktop) (*extra step might be needed: sudo apt-get install python3-tk python3-dev)|
 | **Notion** | `claude mcp add --transport http notion https://mcp.notion.com/mcp` |
 
 ### Starting the Agent
