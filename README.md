@@ -12,6 +12,7 @@ A Claude Code agent for reproducing, testing, validating, and reviewing JetBrain
 - **YouTrack & Notion integration** — reads issues and articles from YouTrack, reads and writes Notion pages
 - **Multi-modal interaction** — prefers API where possible, falls back to web UI, falls back to computer vision — in that order
 - **Product documentation as a source of truth**
+- **Glean MCP** to navigate and use comporate knowledge
 
 ---
 
@@ -57,6 +58,7 @@ Install the following MCPs before first use:
 | **YouTrack** | See [JT-A-961](https://youtrack.jetbrains.com/articles/JT-A-961) |
 | **Opendesk** (computer vision) | [github.com/vitalops/opendesk#mcp-install-claude-code--claude-desktop](https://github.com/vitalops/opendesk#mcp-install-claude-code--claude-desktop) (*extra step might be needed: sudo apt-get install python3-tk python3-dev)|
 | **Notion** | `claude mcp add --transport http notion https://mcp.notion.com/mcp` |
+| **Glean** | [IDES-A-589](https://youtrack.jetbrains.com/articles/IDES-A-589/install-Glean-mcp) install Glean mcp |
 
 ### Starting the Agent
 
