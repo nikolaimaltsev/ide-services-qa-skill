@@ -9,3 +9,5 @@ click whose neighborhood may have moved.
 a11y tree. Use `eval` to find the nearest labeled anchor (heading text, field label) and click the button
 scoped to it.
 - Ignore SSL certificate issues, Advanced → "Proceed to localhost (unsafe)"
+- Use playwright or chrome mcp for browser interaction, don't failover to Opendesk for that, unless asked. 
+  Try to install or fix missing pieces or raise BLOCKER if not possible.
