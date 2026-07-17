@@ -78,7 +78,6 @@ Claude Code picks up `CLAUDE.md` automatically. No additional configuration is r
 - [ ] Central claude memory store — shared across QA engineers to accumulate corner cases and speed up future reproduction
 - [ ] Git repo integration — for tracking reproduction artifacts (low priority)
 - [ ] Glean MCP — available when needed, omitted for now to keep context lean
-- [ ] mcp-steroid — might be useful for selected scenarios
 
 ---
 
